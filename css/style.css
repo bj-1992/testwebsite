@@ -1,23 +1,33 @@
-body{background-color: beige;}
+body{
+	margin: 20px;
+	background-color: #014753;
+}
+header{
+	text-align: center;
+}
+header h1{
+	font-family: lost fish;
+	font-size: 70px;
+	color: white;
+}
+header img{
 
-h2{font-size: 20;
-		color: teal;}
-		.notbold{
-			font-size: 30;
-			color: lime;
-		}
+	margin: 0 auto;
+	width: 750px;
+	border-radius: 1000px;
+	border: 20px solid #00202F;
+}
+main{
+	font-family: lost fish;
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+}
 
+main h2{
+	font-size: 40px;
+}
 
-
-.notbold{
-			font-size: 80;
-			color: lemonchiffon;
-		}
-		.boldheading{
-			font-size: 80;
-			color: lemonchiffon;
-		}
-		h2 span{
-			text-transform: uppercase;
-            color: hotpink;
-		}
+main img{
+	max-width: 100%;
+}
